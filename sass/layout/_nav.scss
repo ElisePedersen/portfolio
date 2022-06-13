@@ -1,0 +1,14 @@
+.navigation__hamburger {
+  border: none;
+  color: $color-primary !important;
+
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .navigation__collapse {
+    background-color: $color-secondary;
+  }
+}

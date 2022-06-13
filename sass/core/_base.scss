@@ -1,0 +1,22 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: $font-primary;
+  background-color: $color-background;
+  color: $color-primary !important;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+a {
+  color: $color-primary !important;
+}

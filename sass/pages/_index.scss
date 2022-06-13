@@ -1,0 +1,14 @@
+.welcome__message {
+  margin-top: 50px !important;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.projects__container {
+  margin-top: 90px;
+
+  & img {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+}

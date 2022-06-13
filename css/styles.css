@@ -1,0 +1,104 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  background-color: #fffaf2;
+  color: #4a4844 !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+a {
+  color: #4a4844 !important;
+}
+
+.navigation__hamburger {
+  border: none;
+  color: #4a4844 !important;
+}
+
+.navigation__hamburger:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+@media (max-width: 767px) {
+  .navigation__collapse {
+    background-color: #e8e2d1;
+  }
+}
+
+.footer__container {
+  border-top: solid 3px #e8e2d1;
+  margin: 0px;
+  padding: 20px 0px;
+  gap: 30px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.footer__container p {
+  margin-bottom: 0px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.linkedin img {
+  max-width: 62px;
+}
+
+.linkedin p {
+  padding-left: 6px;
+}
+
+.email {
+  margin-bottom: 10px;
+}
+
+.email img {
+  max-width: 56px;
+}
+
+.welcome__message {
+  margin-top: 50px !important;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.projects__container {
+  margin-top: 90px;
+}
+
+.projects__container img {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.education__container {
+  display: -ms-grid;
+  display: grid;
+  gap: 20px;
+}
+
+.education__specific {
+  background-color: #e8e2d1;
+  padding: 10px;
+}
+/*# sourceMappingURL=styles.css.map */
