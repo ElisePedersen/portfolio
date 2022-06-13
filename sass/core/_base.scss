@@ -20,3 +20,7 @@ main {
 a {
   color: $color-primary !important;
 }
+
+.active {
+  text-decoration: underline;
+}
