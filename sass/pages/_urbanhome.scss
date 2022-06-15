@@ -1,0 +1,11 @@
+.urbanhome__image {
+  width: 100%;
+}
+
+.urbanhome__container {
+  text-align: center;
+
+  & img {
+    margin: 20px 0px;
+  }
+}
