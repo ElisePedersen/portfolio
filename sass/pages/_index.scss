@@ -6,10 +6,14 @@
 
 .projects__container {
   margin-top: 90px;
+}
 
-  & img {
-    width: 100%;
-    margin-bottom: 30px;
-    border-radius: 3px;
+.projects__container img {
+  width: 100%;
+  margin-bottom: 30px;
+  border-radius: 3px;
+
+  &:hover {
+    opacity: 0.6;
   }
 }

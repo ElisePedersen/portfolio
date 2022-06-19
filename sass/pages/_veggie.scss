@@ -1,5 +1,9 @@
 .veggie__container {
   text-align: center;
+
+  & img {
+    border-radius: 3px;
+  }
 }
 
 .veggie__image {
@@ -8,6 +12,10 @@
   padding: 0px 12px;
 }
 
-.veggie__group {
-  margin: 0px;
+.veggie__group img {
+  margin-bottom: 20px;
+
+  @media (min-width: 768px) {
+    margin: 0px;
+  }
 }

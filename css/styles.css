@@ -100,6 +100,14 @@ a {
   border-radius: 3px;
 }
 
+.projects__container img:hover {
+  opacity: 0.6;
+}
+
+.about__container h4 {
+  margin-top: 20px;
+}
+
 .education__container {
   display: -ms-grid;
   display: grid;
@@ -133,10 +141,15 @@ a {
 
 .urbanhome__container img {
   margin: 20px 0px;
+  border-radius: 3px;
 }
 
 .veggie__container {
   text-align: center;
+}
+
+.veggie__container img {
+  border-radius: 3px;
 }
 
 .veggie__image {
@@ -145,7 +158,13 @@ a {
   padding: 0px 12px;
 }
 
-.veggie__group {
-  margin: 0px;
+.veggie__group img {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .veggie__group img {
+    margin: 0px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
