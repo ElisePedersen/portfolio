@@ -6,6 +6,20 @@
   }
 }
 
+.veggie__button {
+  padding: 5px;
+  background-color: #247251 !important;
+  border-radius: 5px;
+  color: white !important;
+  text-decoration: none;
+
+  &:hover {
+    background-color: transparent !important;
+    border: solid #247251;
+    color: $color-primary !important;
+  }
+}
+
 .veggie__image {
   width: 100%;
   margin: 40px 0px;
