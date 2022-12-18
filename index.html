@@ -34,23 +34,53 @@
     </header>
     <main>
         <h1 class="welcome__message">Hei! Jeg heter Elise og jeg er en frontend utvikler fra Bergen.</h1>
-        <div class="container-fluid projects__container">
-            <div class="row justify-content-center">
-                <div class="col-md-6">
-                    <a href="urbanhome.html"><img src="images/urbanhome-image.jpg" alt="urbanhome website image"></a>
-                </div>
-                <div class="col-md-6">
-                    <a href="veggie.html"><img src="images/veggie-image.jpg" alt="veggie website image"></a>
-                </div>
+        <div class="row row-cols-1 row-cols-xl-3 g-4 projects__container">
+            <div class="col">
+              <div class="card h-100  project__card">
+                <a href="shareish.html">
+                    <img src="images/shareish-image.jpg" class="card-img-top" alt="Shareish website">
+                    <div class="card-body card__body">
+                    <h5 class="card-title">Share-ish</h5>
+                    <p class="card-text">Share-ish er et skoleprosjekt gjennom Noroff. Appen er laget med React, React Bootstrap og CSS Modules.</p>
+                    <a href="shareish.html" class="btn btn-primary button">Read more...</a>
+                    <a href="https://github.com/Noroff-FEU-Assignments/project-exam-2-ElisePedersen" target="_blank" class="btn btn-primary button">GitHub Code</a>
+                    </div>
+                </a>
+              </div>
             </div>
-        </div>
-
+            <div class="col">
+              <div class="card h-100 project__card">
+                <a href="urbanhome.html">
+                    <img src="images/urbanhome-image.jpg" class="card-img-top" alt="urbanhome website">
+                    <div class="card-body card__body">
+                    <h5 class="card-title">UrbanHome</h5>
+                    <p class="card-text">UrbanHome nettsiden er et skoleprosjekt gjennom Noroff. Nettsiden er laget med Bootstrap, Sass, JavaScript og Strapi API.</p>
+                    <a href="urbanhome.html" class="btn btn-primary button">Read more...</a>
+                    <a href="https://github.com/ElisePedersen/urbanhome" target="_blank" class="btn btn-primary button">GitHub Code</a>
+                    </div>
+                </a>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 project__card">
+                <a href="frameworks.html">
+                    <img src="images/javascript-frameworks-ca-image.png" class="card-img-top" alt="javascript frameworks website">
+                    <div class="card-body card__body">
+                    <h5 class="card-title">Javascript frameworks</h5>
+                    <p class="card-text">Dette er et skoleprosjekt gjennom Noroff. Nettsiden er laget med React, React Bootstrap, CSS Modules and Strapi API.</p>
+                    <a href="frameworks.html" class="btn btn-primary button">Read more...</a>
+                    <a href="https://github.com/Noroff-FEU-Assignments/js-frameworks-course-assignment-ElisePedersen" target="_blank" class="btn btn-primary button">GitHub Code</a>
+                    </div>
+                </a>
+              </div>
+            </div>
+          </div>
     </main>
     <footer>
         <div class="container-fluid row footer__container">
             <div class="col-md">
                 <p>GITHUB</p>
-                <a href="https://github.com/ElisePedersen" class="row">
+                <a href="https://github.com/ElisePedersen" target="_blank" class="row">
                     <img src="images/GitHub-logo.png" alt="github logo" class="col-auto">
                     <p class="col">https://github.com/ElisePedersen</p>
                 </a>
@@ -61,7 +91,7 @@
                     <img src="images/email.png" alt="email icon" class="col-auto">
                     <p class="col">elise94@outlook.com</p>
                 </div>
-                <a href="https://linkedin.com/in/elisepedersen1/" class="row linkedin">
+                <a href="https://linkedin.com/in/elisepedersen1/" target="_blank" class="row linkedin">
                     <img src="images/LinkedIn-logo.png" alt="LinkedIn logo" class="col">
                     <p class="col">https://linkedin.com/in/elisepedersen1/</p>
                 </a>

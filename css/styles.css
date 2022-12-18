@@ -87,23 +87,51 @@ a {
 .welcome__message {
   margin-top: 50px !important;
   max-width: 600px;
+  text-align: center;
   margin: 0 auto;
 }
 
 .projects__container {
-  margin-top: 90px;
+  margin-top: 50px;
+  margin: 40px 10px 10px 10px;
 }
 
-.projects__container img {
-  width: 100%;
-  margin-bottom: 30px;
+@media (max-width: 1200px) {
+  .projects__container {
+    max-width: 600px;
+  }
+}
+
+.projects__container img:hover {
+  opacity: 0.6;
+}
+
+.project__card {
   border-radius: 3px;
   -webkit-box-shadow: 2px 2px 10px 1px #4a4844;
           box-shadow: 2px 2px 10px 1px #4a4844;
 }
 
-.projects__container img:hover {
-  opacity: 0.6;
+.card__body {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+
+.projects__container a {
+  text-decoration: none;
+}
+
+.projects__container .button {
+  background-color: #e8e2d1;
+  border: solid 3px white;
+}
+
+.projects__container .button:hover {
+  border: solid 3px #e8e2d1;
+  background-color: #e8e2d1;
 }
 
 .about__container h4 {
@@ -133,12 +161,36 @@ a {
   text-align: center;
 }
 
-.urbanhome__image {
-  width: 100%;
+.urbanhome__container {
+  text-align: center;
+}
+
+.urbanhome__container img {
+  border-radius: 3px;
+}
+
+.urbanhome__logo {
+  width: 60%;
+}
+
+.urbanhome__description {
+  margin: 30px auto 40px auto;
+}
+
+.urbanhome__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .urbanhome__button {
-  padding: 5px;
+  padding: 10px;
   background-color: #d5a466 !important;
   border-radius: 5px;
   color: white !important;
@@ -151,50 +203,89 @@ a {
   color: #4a4844 !important;
 }
 
-.urbanhome__container {
-  text-align: center;
-}
-
-.urbanhome__container img {
-  margin: 20px 0px;
-  border-radius: 3px;
-}
-
-.veggie__container {
-  text-align: center;
-}
-
-.veggie__container img {
-  border-radius: 3px;
-}
-
-.veggie__button {
-  padding: 5px;
-  background-color: #247251 !important;
-  border-radius: 5px;
-  color: white !important;
-  text-decoration: none;
-}
-
-.veggie__button:hover {
-  background-color: transparent !important;
-  border: solid #247251;
-  color: #4a4844 !important;
-}
-
-.veggie__image {
+.urbanhome__image {
   width: 100%;
   margin: 40px 0px;
   padding: 0px 12px;
 }
 
-.veggie__group img {
-  margin-bottom: 20px;
+.frameworks__container {
+  text-align: center;
 }
 
-@media (min-width: 768px) {
-  .veggie__group img {
-    margin: 0px;
-  }
+.frameworks__container img {
+  border-radius: 3px;
+}
+
+.frameworks__description {
+  margin: 30px auto 40px auto;
+}
+
+.frameworks__button {
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: #4a4844;
+  color: white !important;
+}
+
+.frameworks__button:hover {
+  background-color: transparent;
+  color: #4a4844 !important;
+  border: solid thin #4a4844;
+}
+
+.frameworks__image {
+  width: 100%;
+  margin: 40px 0px;
+  padding: 0px 12px;
+}
+
+.shareish__container {
+  text-align: center;
+}
+
+.shareish__container img {
+  border-radius: 3px;
+}
+
+.shareish__description {
+  margin: 30px auto 40px auto;
+}
+
+.shareish__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.shareish__button {
+  background: -webkit-gradient(linear, right bottom, left top, from(#d22f8c), to(#fc782e));
+  background: linear-gradient(to left top, #d22f8c, #fc782e);
+  color: white !important;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.shareish__button:hover {
+  border: solid transparent;
+  background: -webkit-gradient(linear, right bottom, left top, from(#d22f8c), to(#fc782e)), -webkit-gradient(linear, right bottom, left top, from(#d22f8c), to(#fc782e));
+  background: linear-gradient(to left top, #d22f8c, #fc782e), linear-gradient(to left top, #d22f8c, #fc782e);
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+  color: white;
+}
+
+.shareish__image {
+  width: 100%;
+  margin: 40px 0px;
+  padding: 0px 12px;
 }
 /*# sourceMappingURL=styles.css.map */

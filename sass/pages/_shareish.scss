@@ -1,0 +1,41 @@
+.shareish__container {
+    text-align: center;
+  
+    & img {
+      border-radius: 3px;
+    }
+}
+
+.shareish__description {
+    margin: 30px auto 40px auto;
+}
+
+.shareish__links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.shareish__button {
+    background: linear-gradient(to left top, #d22f8c, #fc782e);
+    color: white !important;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+
+    &:hover {
+        border: solid transparent;
+        background: linear-gradient(to left top, #d22f8c, #fc782e),
+          linear-gradient(to left top, #d22f8c, #fc782e);
+        background-clip: padding-box, border-box;
+        background-origin: padding-box, border-box;
+        color: white;
+    }
+}
+
+.shareish__image {
+    width: 100%;
+    margin: 40px 0px;
+    padding: 0px 12px;
+}

@@ -1,9 +1,28 @@
-.urbanhome__image {
-  width: 100%;
+.urbanhome__container {
+  text-align: center;
+  
+  & img {
+    border-radius: 3px;
+  }
+}
+
+.urbanhome__logo {
+  width: 60%;
+}
+
+.urbanhome__description {
+  margin: 30px auto 40px auto;
+}
+
+.urbanhome__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
 }
 
 .urbanhome__button {
-  padding: 5px;
+  padding: 10px;
   background-color: #d5a466 !important;
   border-radius: 5px;
   color: white !important;
@@ -16,11 +35,8 @@
   }
 }
 
-.urbanhome__container {
-  text-align: center;
-
-  & img {
-    margin: 20px 0px;
-    border-radius: 3px;
-  }
+.urbanhome__image {
+  width: 100%;
+  margin: 40px 0px;
+  padding: 0px 12px;
 }
