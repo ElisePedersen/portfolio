@@ -37,6 +37,25 @@
 
 .urbanhome__image {
   width: 100%;
-  margin: 40px 0px;
-  padding: 0px 12px;
+  margin: 20px 0px;
+}
+
+.urbanhome__image-rows img {
+  @media (max-width: 767px) {
+    margin-bottom: 20px;
+  }
+}
+
+.urbanhome__paragraph-small {
+  padding: 20px;
+  background-color: #e8e2d1;
+  margin: 20px 0px;
+
+  @media (max-width: 767px) {
+    margin: 0px 0px 20px 0px;
+  }
+}
+
+.urbanhome__paragraph-small p {
+  margin: 10px;
 }
