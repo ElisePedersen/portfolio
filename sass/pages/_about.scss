@@ -1,5 +1,19 @@
 .about__container h4 {
-  margin-top: 20px;
+  margin-top: 40px;
+}
+
+.contact__button {
+  padding: 10px 15px;
+  border: solid 1px;
+  border-color: $color-primary;
+  text-decoration: none;
+  border-radius: 3px;
+  background-color: $color-secondary;
+  margin: 20px auto;
+}
+
+.contact__button:hover {
+  border: none;
 }
 
 .education__container {

@@ -6,12 +6,14 @@
 }
 
 .projects__container {
-  margin-top: 50px;
-  margin: 40px 10px 10px 10px;
+  max-width: 800px;
+  margin: 60px auto;
+  // margin-top: 50px;
+  // margin: 40px 10px 10px 10px;
 
-  @media (max-width: 1200px) {
-    max-width: 600px;
-  }
+  // @media (max-width: 1200px) {
+  //   max-width: 600px;
+  // }
 }
 
 .projects__container img:hover {
